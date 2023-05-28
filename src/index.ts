@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-
+//Classe responsavel pela conversão.
 export class csvForJson {
     openFileCSV(pathFile: string, trimFile?: boolean, titleFile?: boolean) {
         let id: number;
